@@ -1,0 +1,23 @@
+{
+  "name": "bin-bin",
+  "version": "0.0.1",
+  "description": "bin フィールドを書くだけで本当にnode_modules/.bin から実行できるの？",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ojisan-toybox/node-bin-bin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ojisan-toybox/node-bin-bin/issues"
+  },
+  "homepage": "https://github.com/ojisan-toybox/node-bin-bin#readme",
+  "bin": {
+    "main": "main.js",
+    "sub": "sub.js"
+  }
+}
