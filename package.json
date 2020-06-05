@@ -1,5 +1,5 @@
 {
-  "name": "bin-bin",
+  "name": "@sadness.ojisan/bin-bin",
   "version": "0.0.1",
   "description": "bin フィールドを書くだけで本当にnode_modules/.bin から実行できるの？",
   "main": "index.js",
@@ -19,5 +19,8 @@
   "bin": {
     "main": "main.js",
     "sub": "sub.js"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
